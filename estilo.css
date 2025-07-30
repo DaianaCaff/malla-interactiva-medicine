@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+header {
+    padding: 1rem;
+    background-color: var(--header-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controles {
+    margin-top: 1rem;
+}
+button {
+    margin: 0 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.materia {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.aprobada {
+    background-color: #d4f8d4;
+}
+.pendiente {
+    background-color: #ffe0e0;
+}
+.cursando {
+    background-color: #fffacc;
+}
+/* Modo claro y oscuro */
+:root {
+    --bg-color: #f5f5f5;
+    --text-color: #000;
+    --header-bg: #eee;
+}
+body.oscuro {
+    --bg-color: #121212;
+    --text-color: #fff;
+    --header-bg: #333;
+}
+/* Switch modo oscuro */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+.switch input { display: none; }
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 24px;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked + .slider {
+    background-color: #2196F3;
+}
+input:checked + .slider:before {
+    transform: translateX(26px);
+}

@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Malla Interactiva Medicina</title>
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+    <header>
+        <h1>Malla Interactiva - Medicina</h1>
+        <div class="controles">
+            <button onclick="filtrarPorAnio(1)">1° Año</button>
+            <button onclick="filtrarPorAnio(2)">2° Año</button>
+            <button onclick="filtrarPorAnio(3)">3° Año</button>
+            <button onclick="mostrarTodas()">Todas</button>
+            <label class="switch">
+                <input type="checkbox" id="modoOscuroToggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
+    <main id="contenedor-materias"></main>
+    <script src="main.js"></script>
+</body>
+</html>

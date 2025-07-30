@@ -1,0 +1,11 @@
+
+{
+  "materias": [
+    {"codigo": "00019", "nombre": "Anatomía Normal", "correlativas": [], "estado": "aprobada", "anio": 1},
+    {"codigo": "00050", "nombre": "Pensamiento Filosófico", "correlativas": [], "estado": "aprobada", "anio": 1},
+    {"codigo": "00801", "nombre": "Int. a la Medicina", "correlativas": [], "estado": "aprobada", "anio": 1},
+    {"codigo": "10919", "nombre": "Química II", "correlativas": ["10918"], "estado": "aprobada", "anio": 1},
+    {"codigo": "20934", "nombre": "Histología II", "correlativas": ["20933"], "estado": "pendiente", "anio": 2},
+    {"codigo": "30901", "nombre": "Patología I", "correlativas": ["20934"], "estado": "cursando", "anio": 3}
+  ]
+}
