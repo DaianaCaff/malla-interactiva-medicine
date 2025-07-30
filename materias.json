@@ -1,0 +1,151 @@
+{
+  "materias": [
+    {
+      "codigo": "00019",
+      "nombre": "Anatomía Normal",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "01773",
+      "nombre": "Pensamiento Filosófico",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "20041",
+      "nombre": "Int. a la Medicina",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "00050",
+      "nombre": "Inglés I",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "10919",
+      "nombre": "Química I",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "20926",
+      "nombre": "Química II",
+      "correlativas": [
+        "10919"
+      ],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "20934",
+      "nombre": "Histología I",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "01774",
+      "nombre": "Seminario I",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "00068",
+      "nombre": "Fisiología Humana",
+      "correlativas": [
+        "20926"
+      ],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "00944",
+      "nombre": "Histología II",
+      "correlativas": [
+        "20934"
+      ],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "00092",
+      "nombre": "Antropología",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "00100",
+      "nombre": "Inglés II",
+      "correlativas": [
+        "00050"
+      ],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "10950",
+      "nombre": "Química III",
+      "correlativas": [
+        "20926"
+      ],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "01775",
+      "nombre": "Tecnología de la Información y Comunicación para Medicina",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "10992",
+      "nombre": "Inmunología",
+      "correlativas": [
+        "20926",
+        "20934"
+      ],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "10968",
+      "nombre": "Estadística Médica",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "00293",
+      "nombre": "Atención al Enfermo",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "01776",
+      "nombre": "Seminario II",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "00175",
+      "nombre": "Inglés III",
+      "correlativas": [
+        "00100"
+      ],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "10117",
+      "nombre": "Psicología I",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "21007",
+      "nombre": "Ecología y Saneamiento Ambiental",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "01779",
+      "nombre": "Seminario III",
+      "correlativas": [],
+      "estado": "aprobada"
+    }
+  ]
+}
