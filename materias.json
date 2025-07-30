@@ -1,0 +1,22 @@
+{
+  "materias": [
+    {
+      "codigo": "00019",
+      "nombre": "Anatomía Normal",
+      "correlativas": [],
+      "estado": "aprobada"
+    },
+    {
+      "codigo": "20934",
+      "nombre": "Histología I",
+      "correlativas": [],
+      "estado": "regular"
+    },
+    {
+      "codigo": "00944",
+      "nombre": "Histología II",
+      "correlativas": ["20934"],
+      "estado": "pendiente"
+    }
+  ]
+}
